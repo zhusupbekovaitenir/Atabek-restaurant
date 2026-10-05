@@ -1,0 +1,76 @@
+html
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Restaurant Atabek</title>
+    <style>
+        /* Базовые стили и шрифты */
+        @import url('https://googleapis.com');
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #faf8f2;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #1a252f;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin-bottom: 10px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .welcome-text {
+            font-size: 1.2rem;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .btn {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 12px;
+            background-color: #e74c3c;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background-color: #c0392b;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Family Restaurant Atabek</h1>
+        <p>Добро пожаловать в наш семейный ресторан!</p>
+    </header>
+
+    <div class="container">
+        <p class="welcome-text">Наш сайт успешно перенесён на главную страницу репозитория.</p>
+        <!-- Кнопка перехода во внутреннюю папку, если там остались другие важные файлы -->
+        <a href="./Atabek-restaurant/index.html" class="btn">Перейти к меню</a>
+    </div>
+
+</body>
+</html>
